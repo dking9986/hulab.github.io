@@ -34,13 +34,12 @@ en:
 
 # Uncomment the lines below to configure your website in a second language.
 zh:
- languageCode: zh-Hans
- contentDir: content/zh
- title: 胡晓艳工作组
- params:
-   description: Site description in Chinese...
- menu:
-   main:
+  languageCode: zh-Hans
+  contentDir: content/zh
+  title: 胡晓艳工作组
+  params:
+    description: Site description in Chinese...
+  menu:
      main:
        - name: 主页
          url: tour
