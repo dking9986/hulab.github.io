@@ -5,18 +5,58 @@
 # Default language
 en:
   languageCode: en-us
+  contentDir: content/en
+  title: Hu-Lab
+  params:
+     description: Site description in Chinese...
+  menu:
+     main:
+       - name: Tour
+         url: tour
+         weight: 10
+       - name: News
+         url: post
+         weight: 20
+       - name: People
+         url: people
+         weight: 30
+       - name: Projects
+         url: event
+         weight: 40
+       - name: Publications
+         url: publication
+         weight: 50
+       - name: Contact
+         url: contact
+         weight: 60
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-# zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: 胡晓艳工作组
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+ languageCode: zh-Hans
+ contentDir: content/zh
+ title: 胡晓艳工作组
+ params:
+   description: Site description in Chinese...
+ menu:
+   main:
+     main:
+       - name: 主页
+         url: tour
+         weight: 10
+       - name: 新闻
+         url: post
+         weight: 20
+       - name: 人员
+         url: people
+         weight: 30
+       - name: 项目
+         url: event
+         weight: 40
+       - name: 论文
+         url: publication
+         weight: 50
+       - name: 联系我们
+         url: contact
+         weight: 60
